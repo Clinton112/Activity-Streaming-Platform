@@ -1,0 +1,8 @@
+com/stackroute/consumer/KafkaConsumer.class
+com/stackroute/DownStreamService.class
+com/stackroute/consumer/KafkaConfiguration.class
+com/stackroute/service/MessageService.class
+com/stackroute/model/Message.class
+com/stackroute/controller/MessageController.class
+com/stackroute/repository/MessageRepository.class
+com/stackroute/service/MessageServiceImpl.class

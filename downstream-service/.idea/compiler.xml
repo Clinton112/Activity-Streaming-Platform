@@ -6,16 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="downstreamservice" />
-        <module name="sentimentanalysisservice" />
-        <module name="upstreamservice" />
-        <module name="upstream-service" />
         <module name="downstream-service" />
-        <module name="sentiment-analysis-service" />
-        <module name="cleaningservice" />
-        <module name="cleaning-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="downstream-service" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
